@@ -36,7 +36,7 @@ export default function Biography() {
         </div>
         <div className="md:w-2/3 md:pl-12 text-center md:text-left">
           <h1 className="text-4xl font-bold mb-4 tracking-normal">
-            👋🏼 Hi, I'm Leshawn
+            👋🏼 Hi, I&apos;m Leshawn
           </h1>
           <p className="text-xl text-gray-600 mb-6">
             A passionate technology professional with a knack for creating
@@ -45,8 +45,9 @@ export default function Biography() {
             every project I work on.
           </p>
           <p className="text-xl text-gray-600 mb-6">
-            I'm a natural problem solver, a quick learner, and a team player.
-            I'm always looking for new challenges and opportunities to grow.
+            I&apos;m a natural problem solver, a quick learner, and a team
+            player. I&apos;m always looking for new challenges and opportunities
+            to grow.
           </p>
           <p className="text-xl text-gray-600 mb-6">
             I enjoy watching sports, playing basketball, and video games. I also
