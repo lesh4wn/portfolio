@@ -19,6 +19,14 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      {process.env.UMAMI_TRACKING_URL && (
+        <script
+          defer
+          async
+          src={process.env.UMAMI_TRACKING_URL}
+          data-website-id={process.env.UMAMI_TRACKING_WEBSITE_ID}
+        ></script>
+      )}
       <body className={`${inter.className} antialiased scroll-smooth`}>
         {children}
       </body>
