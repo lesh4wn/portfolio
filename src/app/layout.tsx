@@ -27,7 +27,7 @@ export default function RootLayout({
         defer
         async
         src="https://analytics.leshawn.me/script.js"
-        data-website-id="1254a4de-b8f7-4d9f-a2c5-44db8e0d8df0"
+        data-website-id="ee759d55-700b-4399-8c73-fc2a5443fb5c"
       ></script>
       <body className={`${inter.className} antialiased scroll-smooth`}>
         {children}
